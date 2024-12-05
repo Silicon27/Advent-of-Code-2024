@@ -1,6 +1,6 @@
 import re
 
-with open('../input', 'r') as file:
+with open('../input.txt', 'r') as file:
     text = file.read()
 
 pattern = r'mul\((\d+),(\d+)\)'

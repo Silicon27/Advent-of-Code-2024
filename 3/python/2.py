@@ -13,7 +13,7 @@ def filter_text(text):
     return matches
 
 
-with open('../input', 'r') as file:
+with open('../input.txt', 'r') as file:
     text = file.read()
 
 text = filter_text(text)
